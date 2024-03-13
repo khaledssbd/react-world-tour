@@ -21,7 +21,7 @@ const Country = ({ country, handleVisitedCountry, handleVisitedFlags }) => {
         <small>Code: {cca3}</small>
       </p>
       <br />
-      {/! to avoid auto call make an arrow function and return will be the main function */}
+      {/* to avoid auto call make an arrow function and return will be the main function */}
       <button onClick={() => handleVisitedCountry(country)}>
         Mark visited
       </button>
